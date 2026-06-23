@@ -1,0 +1,30 @@
+{
+  "name": "hk-broker-tax-reconcile",
+  "version": "0.1.0",
+  "description": "Offline HK broker tax reconciliation skill and Codex plugin installer.",
+  "license": "MIT",
+  "type": "module",
+  "bin": {
+    "hk-broker-tax-reconcile": "./bin/install.js"
+  },
+  "files": [
+    "bin",
+    "skills",
+    "plugins",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "codex",
+    "agent-skills",
+    "tax",
+    "broker",
+    "hong-kong",
+    "futu",
+    "hafoo",
+    "tiger"
+  ],
+  "engines": {
+    "node": ">=18"
+  }
+}
