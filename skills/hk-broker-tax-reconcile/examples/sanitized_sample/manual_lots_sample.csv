@@ -1,0 +1,4 @@
+broker,account,code,market,currency,lot_type,buy_date,transfer_date,qty,unit_cost,total_cost,fee,status,source_note
+futu,ACCOUNT_001,0001,SEHK,HKD,opening,2022-01-15,,1000,10.00,10000.00,25.00,confirmed,synthetic historical trade
+futu,ACCOUNT_001,0002,SEHK,HKD,opening,2023-06,,500,20.00,10000.00,0,confirmed,synthetic month-only record
+tiger,ACCOUNT_002,AAPL,US,USD,transfer_in,2021-03-10,2024-12-31,10,150.00,1500.00,5.00,confirmed,synthetic transferred shares
