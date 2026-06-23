@@ -1,0 +1,4 @@
+interface:
+  display_name: "HK Broker Tax Reconcile"
+  short_description: "Reconcile HK broker tax filings offline"
+  default_prompt: "Use $hk-broker-tax-reconcile to calculate a privacy-safe broker tax filing summary from local Futu, Hafoo, and Tiger statement files."
