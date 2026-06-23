@@ -5,7 +5,7 @@
   "license": "MIT",
   "type": "module",
   "bin": {
-    "hk-broker-tax-reconcile": "./bin/install.js"
+    "hk-broker-tax-reconcile": "bin/install.js"
   },
   "files": [
     "bin",
