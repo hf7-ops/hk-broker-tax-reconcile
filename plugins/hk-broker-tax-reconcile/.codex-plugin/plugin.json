@@ -1,0 +1,36 @@
+{
+  "name": "hk-broker-tax-reconcile",
+  "version": "0.1.0",
+  "description": "Offline broker statement reconciliation for China individual income tax filing.",
+  "author": {
+    "name": "HK Broker Tax Reconcile Maintainers"
+  },
+  "license": "MIT",
+  "keywords": [
+    "tax",
+    "broker",
+    "hong-kong",
+    "futu",
+    "hafoo",
+    "tiger",
+    "agent-skill"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "HK Broker Tax Reconcile",
+    "shortDescription": "Reconcile broker tax filings offline.",
+    "longDescription": "Parse local Futu, Hafoo, and Tiger statement files, identify missing opening cost basis, calculate stock-sale gains, dividends, foreign tax credits, and China IIT app filing fields without uploading private data.",
+    "developerName": "HK Broker Tax Reconcile Maintainers",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Use HK Broker Tax Reconcile on my local broker statements.",
+      "Find missing opening costs before calculating tax fields.",
+      "Generate China IIT app filing values from broker files."
+    ],
+    "brandColor": "#2563EB"
+  }
+}
