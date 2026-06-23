@@ -1,0 +1,3 @@
+broker,date,currency,type,gross_dividend,withholding_tax,fee,net_cash,note
+tiger,2025,HKD,dividend,1000.00,100.00,60.00,840.00,synthetic HK dividend summary
+tiger,2025-06-01,USD,adr_fee,0,0,0.10,-0.10,synthetic ADR fee
