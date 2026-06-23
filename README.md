@@ -121,7 +121,6 @@ tax_summary.json
 
 工具默认本地运行。汇率查询、税务规则查询等需要联网的信息，应由用户或 agent 明确发起，并单独记录来源。
 
-```
 
 ## English Summary
 
