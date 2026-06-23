@@ -64,6 +64,7 @@ npx hk-broker-tax-reconcile install --force
 - 买入单价或总成本
 - 买入费用
 - 转仓日期或来源说明
+- 支持对话框输入后让 agent 自己填 CSV
 
 人工成本 CSV 字段：
 
@@ -120,31 +121,6 @@ tax_summary.json
 
 工具默认本地运行。汇率查询、税务规则查询等需要联网的信息，应由用户或 agent 明确发起，并单独记录来源。
 
-## Publish to npm
-
-From the repository root:
-
-```bash
-npm login
-npm publish --access public
-```
-
-If your npm account requires two-factor authentication for writes:
-
-```bash
-npm publish --access public --otp 123456
-```
-
-If the package name is taken, rename it to a scoped package in `package.json`, such as:
-
-```json
-"name": "@your-scope/hk-broker-tax-reconcile"
-```
-
-Users then install with:
-
-```bash
-npx @your-scope/hk-broker-tax-reconcile install
 ```
 
 ## English Summary
