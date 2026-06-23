@@ -17,6 +17,8 @@
 - **结果可审计**：输出明细 CSV 和 `tax_summary.json`，可以追溯每笔卖出、每笔股息和每个缺失成本，而不是只给一个总数。
 - **Codex Plugin + Agent Skill + npx**：可以作为 Codex Plugin 使用，也可以作为独立 Agent Skill 安装；发布 npm 后用户可一行 `npx ... install` 安装。
 
+本Skill仅作为数据整理和计算辅助，具体申报口径请以个税 App 和税务机关要求为准。
+
 ## 安装
 
 安装 Codex Plugin：
